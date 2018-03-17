@@ -20,7 +20,7 @@
 
         position: fixed;
         top: auto;
-        bottom: 10px;
+        bottom: 20px;
         left: 50%;
         margin-left: -25px;
 
@@ -41,7 +41,7 @@
     }
 
     .menu-toggler-toggled {
-        transform: rotateZ(90deg);
+        transform: rotateZ(-90deg);
         transition: transform 200ms;
     }
 }
