@@ -1,3 +1,14 @@
+/*
+
+Color palette:
+
+Highlight: #315EEB
+Default: #008BE9
+Secondary: #C749FF
+
+
+*/
+
 .menu {
     display: inline-flex;
     position: fixed;
@@ -11,17 +22,22 @@
     background-color: white;
 }
 
-.left {
+.menu-title {
+    display: none;
+}
+
+.menu-main {
     text-align: left;
     width: 50%;
 }
 
-.right {
+.menu-nav {
     text-align: right;
     width: 50%;
 }
 
 .menu-logo {
+    margin: 5px 20px;
     display: inline-block;
     text-decoration: none;
     font-size: 1.2em;
@@ -33,11 +49,12 @@
     padding: 20px 30px;
     text-decoration: none;
     font-size: 1.2em;
-    color: gray;
+    color: #008BE9;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 .menu-link:hover {
-    background-color: lightgray;
+    background-color: #315EEB;
     color: white;
 }
 
